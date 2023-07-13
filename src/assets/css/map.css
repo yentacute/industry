@@ -1,0 +1,74 @@
+.wb-button-container {
+    position: fixed;
+    right: 19px;
+    top: 35px;
+    z-index: 3;
+}
+
+.wb-button {
+    cursor: pointer;
+    text-align: center;
+    line-height: 30px;
+    vertical-align: middle;
+    background-color: #fff;
+    width: 30px;
+    height: 30px;
+    box-shadow: 1px 1px #ccc;
+    margin: 1px;
+}
+
+.wb-button > i.mdi {
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.collapse__topleft {
+    position: fixed;
+    top: 35px;
+    right: 60px;
+    z-index: 3;
+}
+
+#collapseMapType > .mapType {
+    width: 220px;
+    padding: 4px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+#collapseSearch > .searchMap {
+    width: 300px;
+    background-color: #FFFFFF;
+}
+
+ul.mapType {
+    list-style: none;
+}
+
+label {
+    margin: 0;
+}
+
+input[type="radio"][id^="rd"] {
+    display: none;
+}
+
+:checked + label img {
+    border: 2px solid #405189;
+    z-index: -1;
+}
+
+.offcanvas.offcanvas-bottom {
+    height: 50vh;
+}
+
+.drag_btn{
+    width: 30px;
+    height: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #002244;
+}
+
+

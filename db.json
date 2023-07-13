@@ -1,0 +1,38 @@
+{
+    "folders": [
+        { 
+            "id": 1,
+            "title": "Hiện trạng sử dụng đất", 
+            "file": null,
+            "folder_child": [
+                {
+                    "id": 1,
+                    "title": "Phủ bề mặt", 
+                    "file": null
+                }
+            ],
+            "created_date": "20/11/2022"
+        },
+        { 
+            "id": 2,
+            "title": "Nền tảng số", 
+            "file": null,
+            "folder_child": [
+                {
+                    "id": 1,
+                    "title": "Địa chỉ", 
+                    "file": null,
+                    "sub_folder": [
+                        {
+                            "id": 1,
+                            "title": "Item cap 1", 
+                            "file": null
+                        }
+                    ]
+                }
+            ],
+
+            "created_date": "20/11/2022"
+        }
+    ]
+  }

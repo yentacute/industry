@@ -1,0 +1,113 @@
+.navbar  {
+    .container {
+
+        @media(max-width:992px) {
+            justify-content: start;
+            max-width: none;
+        }
+    }
+
+    .navbar-brand {
+        display: inline-block;
+        order: 2;
+        justify-content: start;
+        @media(min-width:992px) {
+            order: unset;
+        }
+
+    }
+
+    .navbar-toggler {
+        @media(max-width:992px) {
+            border: none;
+            i {
+                font-size: 24px;
+                color: #fff;
+            }
+        }
+    }
+
+    &.fixed-top {
+        position: fixed;
+        @media(max-width:992px) {
+            position: absolute;
+            background-color: transparent;
+        }
+
+        @media(min-width:992px) {
+            .user {
+                svg {
+                    path {
+                        fill: var(--vz-white);
+                    }
+                }
+            }
+        }
+
+        .nav-link {
+            color: var(--vz-white);
+        }
+    }
+
+    &.is-sticky {
+        .nav-link {
+            color: var(--vz-dark);
+        }
+
+        .user {
+            svg {
+                path {
+                    fill: var(--vz-dark);
+                }
+            }
+        }
+    }
+    
+}
+.nav-item {
+    &.has-child {
+        .menu-dropdown {
+            .nav-link {
+                color:rgba(var(--vz-dark),.75)
+            }
+        }
+    }
+    
+    &.user {
+        list-style: none;
+        svg {
+            path {
+                fill: var(--vz-dark)
+            }
+        }
+    }
+
+    .nav-link {
+        svg {
+            margin-right: 10px;
+        }
+    }
+}
+
+.nft-hero {
+    background-position: 50% 0;
+    background-color: rgb(244, 244, 244) ;
+    background-repeat: no-repeat;
+    padding: 12em 0 84px;
+    @media(min-width:992px) {
+        padding: 16em  20em;
+    }
+}
+
+.port {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    img {
+        width: 100%;
+    }
+}
+
